@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0 auto ;
+}
+
+#logo {
+    width: 268px;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    width: 252px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    align-items: center;
+    font-family: roboto;
+    line-height: 30px;
+    color: #ababab;
+}
+.sousmenu{
+    display: none;
+    position: absolute;
+
+}
+.menuitem:hover {
+    color: #00b39b;
+}
+
+nav{
+    height: 100%;
+    width: 252px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0.3px 0.3px 0.3px 0.3px rgb(224, 217, 217);
+}
+
+li{
+    list-style: none;
+}
+
+.menuitem:hover .sousmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.945);
+    width: 220px;
+    height: 220px;
+    margin-left: -140px;
+}
+
+.sousmenuitem{
+    color: #ababab;
+    width: 220px;
+    height: 100%;
+    margin-left: -40px;
+    padding: 0px 20px;
+}
+
+.sousmenuitem:hover {
+    background-color: #ababab42;
+    color: #00b39b;
+    
+}
+#imgcenter{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 70px;
+    height: auto;
+}
+
+.h1top {
+    font-size: 34px;
+    font-weight: 300px;
+    line-height: 44.2px;
+    text-decoration: none solid rgb(0, 179, 155);
+    text-align: center;
+   color: #00b39b;
+    font-family: "Work Sans",arial,sans-serif;
+    background-color: #ffffff;
+    width: 975px;
+    height: 45px;
+    padding: 32px 32px 0px 32px;
+   
+    
+}
+
+.paragtop{
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #ffffff;
+    text-align: justify;
+   margin: 13px 30px 13px 30px;
+   height: 112px;
+   width: 477px;
+    
+}
+
+.posparag{
+    display: flex;
+    margin: 45px;
+    
+}
+.lead_section_inner{
+    height: 308px;
+    width: 1015px;
+    line-height: 20px;
+    margin: 33px 167px 60px 167px;
+    padding: 0px 20px 0px 20px;
+    max-width: 1015px;
+}
+/****************section inner config*********************************/
+.section_inner{
+    display: flex;
+    font-family: Roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 365px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 100px 0px 110px;
+    max-width: 1015px;
+    padding: 0px 20px 0px 20px;
+}
+#iconpatient{
+    font-size: 16px;
+    /* text-decoration: none solid rgb(116, 116, 116); */
+    height: 24px;
+    width: 24px;
+    margin: 0 0 -6px 0;
+    max-width: 100%;
+}
+#divglobal{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    font-family: roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 365px;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+}
+
+#div1{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-content: flex-start;
+    font-family: roboto;
+    font-size: 16px;
+    background-color: #00ccb1;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 345px;
+    width: 250px;
+    padding: 32px 32px 0 32px;
+}
+#div1_bleu{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-family: roboto;
+    font-size: 16px;
+    background-color: #3D83DF;
+    text-decoration: none solid rgb(255, 255, 255); 
+    height: 345px;
+    width: 250px;
+    padding: 32px 32px 0 32px;
+    border-radius: 10px;
+}
+#div1_noir{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-family: roboto;
+    font-size: 16px;
+    background-color: #1b2734;
+    text-decoration: none solid rgb(255, 255, 255); 
+    height: 345px;
+    width: 250px;
+    padding: 32px 32px 0 32px;
+    border-radius: 10px;
+    
+}
+#div2{
+    font-family: roboto;
+    font-size: 16px;
+    background-color: #00ccb1;
+    text-decoration: none solid rgb(255, 255, 255); 
+    height: 159px;
+    width: 200px;
+}
+#div2_bleu{
+    font-family: roboto;
+    font-size: 16px;
+    background-color:transparent;
+    text-decoration: none solid rgb(116, 116, 116);
+    height: 159px;
+    width: 200px;
+}
+#div2_noir{
+    font-family: roboto;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 159px;
+    width: 247px;
+}
+#div3{
+    font-family: Roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 75px;
+    width: 247px;
+    background-color: #00ccb1;
+    justify-content: end;
+}
+#div3_bleu{
+    font-family: Roboto;
+    font-size: 16px;
+    /* text-decoration: none solid rgb(116, 116, 116); */
+    height: 75px;
+    width: 247px;
+    background-color: transparent;
+    justify-content: end;
+}
+#div3_noir{
+    font-family: Roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 75px;
+    width: 247px;
+    background-color: transparent;
+    justify-content: end;
+   
+}
+#h1_section_inner{
+    font-family: "work sans",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    height: 33px;
+    width: 247;
+    margin: 8px 0px 8px 0px;
+    text-decoration: none solid rgb(255, 255, 255);
+    color: white;
+}
+
+#h2_section_inner{
+    font-family: "work sans",Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration: none solid rgb(255, 255, 255);
+    height: 86px;
+    width: 246px;
+    font-size: 24px;
+    color: white;
+}
+
+.select{
+    font-family: Roboto;
+    margin-top: 100px;
+    font-size: 19px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    height: 40px;
+    width: 192px;
+    padding: 0 38px 0 0;
+    background-color:#00ccb1;
+    color: white;
+}
+.selectbleu{
+    font-family: Roboto;
+    margin-top: 100px;
+    font-size: 19px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    height: 40px;
+    width: 192px;
+    padding: 0 38px 0 0;
+    background-color:#3D83DF;
+    color: white;
+}
+#select1{
+    font-family: Roboto;
+    margin-top: 50px;
+    font-size: 19px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    height: 40px;
+    width: 220px;
+    padding: 0 38px 0 0;
+    background-color:#1b2734;
+    color: white;
+}
+#select2{
+    font-family: Roboto;
+   margin-top: 10px;
+    font-size: 19px;
+    text-decoration: underline solid rgb(255, 255, 255);
+    height: 40px;
+    width: 250px;
+    padding: 0 38px 0 0;
+    background-color: #1b2734;
+   color: white;
+}
+
+
+/***********************************fin section inner config*******************************/
+
+
+
+/*********************************section inner brands******************************************/
+
+.brands_section_inner {
+    display: flex;
+    width: 1015px;
+    margin-top: 15px;
+    margin: 40px 167px 50px 167px;
+    padding: 0 20px 0 20px;
+}
+svg{
+    width: 135px;
+    height: 35px;
+    fill: #747474;
+}
+svg:hover{
+    fill: #00b39b;
+}
+.brands__logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+#directionli {
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+}
+
+.brands_h1 {
+    float: left;
+    width: 321px;
+    height: 101px;
+    font-size: 26px;
+    font-weight: 300px;
+    margin: 7px 0px 9px 0px;
+    
+    color: #00b39b;
+    font-family: work sans,arial,sans-serif;
+}
+.sponimg{
+    filter: grayscale(100%);
+}
+
+.sponimg:hover{
+    filter: grayscale(0);
+}
+
+.brands__logos .tuotempo img {
+    height: 16px;
+    width: 126px;
+    max-width: 100%;
+}
+.brands__logos .gipo img {
+    height: 38px;
+    width: 47px;
+    max-width: 100%;
+}
+.brands__logos .clinicloud img {
+    height: 34px;
+    width: 72px;
+    max-width: 100%;
+}
+.brands__logos .jameda img {
+    height: 34px;
+    width: 116px;
+    max-width: 100%;
+}
+/*********************************fin section inner brands************************************/
+
+
+/**********************************debut section stats****************************************/
+
+.stats {
+    font-family: roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #E5FAF8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    height: 600px;
+    width: 100%;
+
+}
+#backgrounddiv{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #e5faf8;
+    background-image: url(https://cdn.discordapp.com/attachments/964128210705068102/984402848517333022/Sans_titre-2.png);
+}
+#divone{
+    font-family: roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #E5FAF8;
+    color: #747474;
+    height: 201px;
+    width: 497px;
+    margin: -20px 100px 250px 150px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+#divone h1{
+    font-family: work sans;
+    font-size: 34px;
+    font-weight: 300;
+    text-decoration: none solid rgb(0, 179, 155);
+    background-color: #E5FAF8;
+    color: #00b39b;
+    height: 88px;
+    width: 477px;
+}
+
+#divone p{
+    font-family: roboto;
+    font-size: 14px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #E5FAF8;
+    color: #747474;
+    height: 48px;
+    width: 415px;
+    margin: 22px 0 22px 0;
+}
+
+#divleft {
+    margin-left: 50px;
+}
+#divright {
+    margin-left: -50px;
+}
+
+.divcommun {
+    font-family: roboto;
+    font-size: 13px;
+    text-decoration: none solid rgb(116, 116, 116);
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ffffff;
+    color: #747474;
+    height: 240px;
+    width: 198px;
+    border-radius: 10px;
+    margin: 0px 40px 20px 0px;
+}
+.divcommun img{
+    font-family: roboto;
+    font-size: 13px;
+    text-decoration: none solid rgb(116, 116, 116);
+    text-align: center;
+    background-color: #ffffff;
+    color: #747474;
+    height: 40px;
+    width: 35px;
+}
+.divcommun h3{
+    font-family: work sans;
+    font-size: 24px;
+    text-decoration: none solid rgb(0, 179, 155);
+    text-align: center;
+    background-color: #ffffff;
+    color: #00b39b;
+    height: 62px;
+    width: 198px;
+    margin: 12px 0 12px 0;
+    
+}
+#divcommun p{
+    font-family: roboto;
+    font-size: 13px;
+    text-decoration: none solid rgb(116, 116, 116);
+    text-align: center;
+    background-color: #ffffff;
+    color: #747474;
+    height: 67px;
+    width: 198px;
+}
+#divcomm4container {
+    display: flex;
+    width: 560px;
+    height: 500px;
+}
+
+
+/**********************************fin section stats****************************************/
+
+/***********************************debut section offices***********************************/
+
+.offices_section{
+   
+    font-family: roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #ffffff;
+    color: #747474;
+    height: 1350px;
+    width: 1015px;
+    margin: 88px 167px 80px 167px;
+    padding: 0 20px 0 20px;
+    max-width: 1050px;
+}
+#divhetp{
+    display: flex;
+    flex-direction: column;
+    
+}
+#divhetp h1{
+    font-family: work sans;
+    font-size: 30px;
+    text-decoration: none solid rgb(0, 179, 155);
+    text-align: center;
+    background-color: #ffffff;
+    color: #00b39b;
+    height: 78px;
+    width: 460px;
+}
+#divhetp p{
+    font-family: roboro;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #ffffff;
+    color: #747474;
+    height: 72px;
+    width: 460px;
+    margin: 22px 0 22px 270px;  
+
+}
+#divforimgs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1015px;
+    height: 1350px;
+}
+.modifh2etbutton{
+    font-size: 18px;
+    font-family: roboto;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #ffffff;
+    color: #747474;
+    height: 70px;
+    width: 309px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modifh2etbutton h2{
+    font-family: roboto;
+    font-size: 18px;
+
+}
+.modifh2etbutton button{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none solid rgb(255, 255, 255);
+    background-color: #3D83DF;
+    color: #ffffff;
+    height: 30px;
+    width: 103px;
+    border-radius: 10px;
+}
+.divimg{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 350px;
+    border-radius: 20px;
+}
+.divimg img{
+    font-family: roboto;
+    font-size: 16px;
+    text-decoration: none solid rgb(116, 116, 116);
+    background-color: #ffffff;
+    color: #747474;
+    height: 280px;
+    width: 309px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.divimg:hover{
+    box-shadow: 10px 10px 10px 10px #2c3743;
+}
+#divpied{
+    display: flex;
+    flex-direction: column;
+}
+#divpied h1{
+    font-family: work sans;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none solid rgb(51, 51, 51);
+    background-color: #ffffff;
+    color: #333333;
+    height: 39px;
+    width: 520px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#divpied button{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none solid rgb(255, 255, 255);
+    background-color: #3D83DF;
+    color: #ffffff;
+    height: 40px;
+    width: 210px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/***********************************fin section offices***********************************/
+/************************************debut section footer**************************************/
+.mainfooter{
+    font-family: roboto;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none solid rgb(116, 116, 116);
+    height: 30px;
+    width: 1350px;
+    border-top: 1px solid #EEF2F2;
+    background-color: #ffffff;
+    color: #747474;
+    margin-top: 250px;
+}
+#divfooter{
+    font-family: roboto;
+    font-size: 12px;
+    text-decoration: none solid rgb(171, 171, 171);
+    text-align: center;
+    background-color: #ffffff;
+    color: #ababab;
+    height: 90px;
+    width: 1015px;
+    margin: 0 167px 0 167px;
+}
+#divfooter p{
+    font-family: roboto;
+    font-size: 12px;
+    line-height: 19px;
+    text-decoration: none solid rgb(171, 171, 171);
+    text-align: center;
+    background-color: #ffffff;
+    color: #ababab;
+    height: 16px;
+    width: 975px;
+    margin: 19px 0 5px 0;
+}
+#divfooter a{
+    text-decoration: none;
+    color: #3D83DF;
+}
+#divfooter a:hover{
+    text-decoration: underline;
+}
+/************************************debut section footer**************************************/
